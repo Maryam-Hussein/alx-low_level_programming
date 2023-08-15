@@ -1,15 +1,10 @@
 #include "main.h"
-/**
-* main - Print the word "Holberton"
-*
-* Return: Always 0 (Success)
-*/
-
 int main(void)
 {
-	int i;
-	char p[] = "\n"
-for (i = 0; i < 9; i++)
+        int i;
+        char p[] = "\n";
+
+	for (i = 0; i < 9; i++)
 		{
 		_putchar(p[i]);
 		}
